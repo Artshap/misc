@@ -1,2 +1,5 @@
 pandas
 qgrid
+hide_code
+matplotlib
+numpy
