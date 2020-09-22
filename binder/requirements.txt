@@ -3,3 +3,4 @@ qgrid
 hide_code
 matplotlib
 numpy
+xlrd
