@@ -26,6 +26,10 @@ RUN jupyter nbextension install qgrid --py --sys-prefix
 RUN jupyter-nbextension enable --py --sys-prefix qgrid
 #    jupyter-serverextension enable qgrid --py --sys-prefix
     
+ENV TINI_VERSION v0.6.0
+ADD https://github.com/krallin/tini/releases/download/${TINI_VERSION}/tini /usr/bin/tini
+RUN chmod +x /usr/bin/tini
+ENTRYPOINT ["/usr/bin/tini", "--"]
 
 
 
