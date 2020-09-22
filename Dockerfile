@@ -35,4 +35,8 @@ ENTRYPOINT ["/usr/bin/tini", "--"]
 
 
 
+<<<<<<< Updated upstream
 CMD ["jupyter", "notebook", "--port=8888", "--no-browser", "--ip=0.0.0.0"]
+=======
+CMD ["jupyter", "notebook", "--no-browser", "--ip='0.0.0.0'"]
+>>>>>>> Stashed changes
