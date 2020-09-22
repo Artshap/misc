@@ -1,6 +1,0 @@
-jupyter nbextension install hide_code --py --sys-prefix
-jupyter-nbextension enable hide_code --py --sys-prefix 
-
-    
-jupyter nbextension install qgrid --py --sys-prefix
-jupyter-nbextension enable --py --sys-prefix qgrid
